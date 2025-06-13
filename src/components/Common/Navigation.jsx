@@ -61,9 +61,9 @@ class Navigation extends React.Component {
                         <li>
                         <NavLink to={"/contactus"}>Contact</NavLink>
                         </li>
-                        <li id="visiionlogo" style={{ display: window.innerWidth <= 600 ? 'none' : 'block' }}>
+                        {/* <li id="visiionlogo" style={{ display: window.innerWidth <= 600 ? 'none' : 'block' }}>
   <img src={require('./../../images/All manpower img/2030 logo.png')} style={{ height: '50px', marginTop: '10px' }} />
-</li>
+</li> */}
                       
                         {/* <li>
                         <NavLink to={""}>Pages</NavLink>

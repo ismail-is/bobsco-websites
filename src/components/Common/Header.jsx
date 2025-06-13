@@ -8,7 +8,7 @@ class Header extends React.Component {
 
     constructor(props){
         super(props);
-        this.state = {logo: require('./../../images/All manpower img/Fastest Services - Logo.png')};
+        this.state = {logo: require('./../../images/all bobsco/logo/Bobso Logo.png')};
     }
 
     state = { isSearchActive: false, isQuoteActive: false };
