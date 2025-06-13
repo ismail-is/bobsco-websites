@@ -12,29 +12,29 @@ var bnrimg = require('./../../images/banner/3.jpg');
 const projects = [
     {
         image: require('./../../images/All manpower img/Home - Manpower.webp'),
-        title: 'Manpower Supply',
+        title: 'Engineering Design Services',
         description: 'Morbi mattis ex non urna condim entum, eget eleifend diam molestie. Curabitur lorem enim'
     },
     {
         image: require('./../../images/All manpower img/Home - Equipment rental.webp'),
-        title: 'Equipment Rental',
+        title: 'Oil & Gas Energy',
         description: 'Morbi mattis ex non urna condim entum, eget eleifend diam molestie. Curabitur lorem enim'
     },
     {
         image: require('./../../images/All manpower img/Home - Material Supply.webp'),
-        title: 'Material Supply',
+        title: ' Automation Industry',
         description: 'Morbi mattis ex non urna condim entum, eget eleifend diam molestie. Curabitur lorem enim',
         filter: 'cat-2'
     },
     
     {
         image: require('./../../images/All manpower img/Civil Works  - Home Page.webp'),
-        title: 'Civil Works',
+        title: 'Renewable energy',
         description: 'Morbi mattis ex non urna condim entum, eget eleifend diam molestie. Curabitur lorem enim'
     },
     {
         image: require('./../../images/All manpower img/Scaffolding.webp'),
-        title: 'Scaffolding',
+        title: 'Manufacturing',
         description: 'Morbi mattis ex non urna condim entum, eget eleifend diam molestie. Curabitur lorem enim'
     }
     
@@ -84,7 +84,8 @@ class ProjectCarousel extends React.Component {
                             <div className="section-head">
                             <div className="mt-separator-outer separator-left">
                                 <div className="mt-separator">
-                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Our</span> Services</h2>
+                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Core Capabilities </span> & Services
+</h2>
                                 </div>
                             </div>
                         </div>
